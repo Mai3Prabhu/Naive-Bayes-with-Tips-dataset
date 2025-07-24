@@ -1,4 +1,4 @@
-### Tips Dataset Time Prediction using Gaussian Naive Bayes
+# Tips Dataset Time Prediction using Gaussian Naive Bayes
 
 This project demonstrates how to predict the time (Dinner or Lunch) of a customer's visit using the popular "tips" dataset from Seaborn. We employ a Gaussian Naive Bayes classifier, a probabilistic machine learning algorithm well-suited for continuous features.
 
@@ -20,7 +20,7 @@ The core objective is to build a classification model that can accurately determ
 
 7. Model Evaluation: Assessing the model's performance using standard metrics.
 
-# Dataset
+## Dataset
 
 The "tips" dataset, available through the seaborn library, contains information about the tips received by a waiter over a period of time. Key columns relevant to this project include:
 
@@ -32,7 +32,7 @@ The "tips" dataset, available through the seaborn library, contains information 
 - time: Time of day (Dinner or Lunch) - This is our target variable
 - size: Size of the party (numerical)
 
-# Key Libraries Used
+## Key Libraries Used
 
 1. seaborn: For loading the "tips" dataset.
 
@@ -40,7 +40,7 @@ The "tips" dataset, available through the seaborn library, contains information 
 
 3. scikit-learn: For data splitting, the Gaussian Naive Bayes model, and evaluation metrics.
 
-# Results
+## Results
 
 The Gaussian Naive Bayes model demonstrated strong performance in predicting the time of the customer's visit.
 
@@ -77,11 +77,11 @@ weighted avg       0.96      0.96      0.96        49
 
 The model achieved an impressive 96% accuracy on the test data. It showed perfect recall for "Lunch" predictions and high precision for "Dinner" predictions.
 
-# Conclusion
+## Conclusion
 
 The Gaussian Naive Bayes model proved to be highly effective in classifying the time of day (Dinner/Lunch) from the "tips" dataset, achieving a high accuracy of 96%. This highlights its suitability for multiclass classification problems with a mix of continuous and categorical features (after appropriate encoding).
 
-# How to Run
+## How to Run
 
 **1. Clone the repository:**
 
@@ -104,5 +104,5 @@ Save the provided code into a Python file (e.g., tips_prediction.py) and run it 
 python tips_prediction.py
 ```
 
-# Contributing
+## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
