@@ -1,9 +1,9 @@
-## Tips Dataset Time Prediction using Gaussian Naive Bayes
---
+### Tips Dataset Time Prediction using Gaussian Naive Bayes
+
 This project demonstrates how to predict the time (Dinner or Lunch) of a customer's visit using the popular "tips" dataset from Seaborn. We employ a Gaussian Naive Bayes classifier, a probabilistic machine learning algorithm well-suited for continuous features.
 
 ## Project Overview
---
+
 The core objective is to build a classification model that can accurately determine if a dining experience was during "Dinner" or "Lunch" based on other features in the dataset. The project follows these key steps:
 
 1. Data Loading: Loading the "tips" dataset.
@@ -40,9 +40,10 @@ The "tips" dataset, available through the seaborn library, contains information 
 
 3. scikit-learn: For data splitting, the Gaussian Naive Bayes model, and evaluation metrics.
 
-## Results
+# Results
 
 The Gaussian Naive Bayes model demonstrated strong performance in predicting the time of the customer's visit.
+
 Accuracy:
 ```
 0.9591836734693877
@@ -56,15 +57,13 @@ Confusion Matrix:
 
 This matrix indicates:
 
-32 instances of "Dinner" were correctly predicted as "Dinner".
-
-2 instances of "Dinner" were incorrectly predicted as "Lunch".
-
-15 instances of "Lunch" were correctly predicted as "Lunch".
-
-0 instances of "Lunch" were incorrectly predicted as "Dinner".
+- 32 instances of "Dinner" were correctly predicted as "Dinner".
+- 2 instances of "Dinner" were incorrectly predicted as "Lunch".
+- 15 instances of "Lunch" were correctly predicted as "Lunch".
+- 0 instances of "Lunch" were incorrectly predicted as "Dinner".
 
 Classification Report:
+
 ```
               precision    recall  f1-score   support
 
@@ -79,6 +78,7 @@ weighted avg       0.96      0.96      0.96        49
 The model achieved an impressive 96% accuracy on the test data. It showed perfect recall for "Lunch" predictions and high precision for "Dinner" predictions.
 
 # Conclusion
+
 The Gaussian Naive Bayes model proved to be highly effective in classifying the time of day (Dinner/Lunch) from the "tips" dataset, achieving a high accuracy of 96%. This highlights its suitability for multiclass classification problems with a mix of continuous and categorical features (after appropriate encoding).
 
 # How to Run
